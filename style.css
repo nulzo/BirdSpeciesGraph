@@ -1,0 +1,58 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: #FFF;
+}
+.home .text-two{
+    color: #FFF;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: mediumaquamarine;
+}
+.home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: #FFF;
+}
+.home .button{
+    margin: 14px 0;
+}
+.home .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: mediumaquamarine;
+    color: #FFFFFF;
+    cursor: crosshair;
+    border: 2px solid transparent;
+    transition: 0.5s ease;
+}
+.home .button button:hover{
+    border-color: mediumaquamarine;
+    background-color: azure;
+    color: mediumaquamarine;
+}
+
+#3d-graph {
+    background-color: white;
+}
